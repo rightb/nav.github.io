@@ -133,6 +133,11 @@ export default {
   justify-content: space-around
 .input-field
   position: relative
+  input
+    display: block
+  .input-field__error
+    display: block
+    color: red
   label
     display: block
     text-align: left 
